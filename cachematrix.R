@@ -1,6 +1,6 @@
 
-## A pair of functions that take a matrix, create an object that can cache the
-## inverse of that matrix, which is then passed to a function that either
+## A pair of functions that take a matrix and create an object that can cache
+## the inverse of that matrix, which is then passed to a function that either
 ## computes the inverse of that matrix or retrieves it from the cache.
 
 
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Takes a cacheMean object, retrieves the inverted matrix from it and returns
+## Takes a cacheMatrix object, retrieves the inverted matrix from it and returns
 ## it. If the inverse has not yet been cached (set), instead retrieves the
 ## original matrix and computes its inverse, returning the inverse as well as
 ## cacheing it
